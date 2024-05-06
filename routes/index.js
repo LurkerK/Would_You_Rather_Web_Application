@@ -16,7 +16,7 @@ router.get('/wyr', function(req, res, next) {
     // }
 
     const wyr = randomWYRQuestion()  // random question is retrieved
-    res.json(wyr)
+    res.json(wyr)  // send the question as JSON response
 
 })
 
